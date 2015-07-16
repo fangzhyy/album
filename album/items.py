@@ -12,4 +12,8 @@ class AlbumItem(Item):
     image = Field()
     refer = Field()
     album_id = Field()
+    people_id = Field()
+    people_name = Field()
+    relative = Field()
+    album_name = Field()
     pass
